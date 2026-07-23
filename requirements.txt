@@ -1,0 +1,13 @@
+# Core deep-learning stack
+torch>=2.0
+torchvision>=0.15
+ultralytics>=8.0        # YOLO detector (auto-downloads yolov8n.pt)
+
+# Image / numeric
+opencv-python>=4.7
+numpy>=1.23
+scipy>=1.10             # Hungarian one-to-one matching
+pillow>=9.0
+
+# Testing
+pytest>=7.0
